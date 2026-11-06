@@ -1,0 +1,13 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --bg: #f8fafc; --surface: #ffffff; --text: #0f172a; --text-muted: #64748b;
+  --primary: #4f46e5; --primary-hover: #4338ca; --border: #e2e8f0;
+  --work: #3b82f6; --sleep: #8b5cf6; --break: #10b981; --personal: #f59e0b;
+}
+html, body { font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; }
+[data-lucide] { width: 18px; height: 18px; vertical-align: middle; }
+.btn { padding: 10px 16px; border-radius: 8px; border: none; font-weight: 600; display: inline-flex; align-items: center; gap: 8px; cursor: pointer; transition: 0.2s; }
+.btn.primary { background: var(--primary); color: #fff; }
+.btn.primary:hover { background: var(--primary-hover); }
+.btn.ghost { background: transparent; border: 1px solid var(--border); color: var(--text); }
+.btn.ghost:hover { background: #f1f5f9; }

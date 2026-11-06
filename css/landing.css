@@ -1,0 +1,17 @@
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background: var(--surface); border-bottom: 1px solid var(--border); }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.2rem; color: var(--primary); text-decoration: none; }
+.nav-links a:not(.btn) { margin-right: 20px; text-decoration: none; color: var(--text-muted); font-weight: 500; }
+.hero { text-align: center; padding: 100px 20px; max-width: 800px; margin: 0 auto; }
+.hero-badge { display: inline-flex; align-items: center; gap: 6px; background: #e0e7ff; color: var(--primary); padding: 6px 14px; border-radius: 99px; font-weight: 600; margin-bottom: 20px; }
+.hero h1 { font-size: 3.5rem; font-weight: 900; line-height: 1.1; margin-bottom: 20px; letter-spacing: -1px; }
+.hero .accent { color: var(--primary); }
+.hero-lead { font-size: 1.2rem; color: var(--text-muted); margin-bottom: 40px; }
+.section { padding: 80px 20px; max-width: 1000px; margin: 0 auto; }
+.section-title { text-align: center; font-size: 2rem; font-weight: 800; margin-bottom: 40px; }
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+.feature-card { background: var(--surface); padding: 30px; border-radius: 16px; border: 1px solid var(--border); }
+.feature-icon { width: 50px; height: 50px; background: #e0e7ff; color: var(--primary); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; }
+.feature-icon [data-lucide] { width: 24px; height: 24px; }
+.feature-card h3 { margin-bottom: 10px; }
+.feature-card p { color: var(--text-muted); }
+.footer { text-align: center; padding: 40px; color: var(--text-muted); border-top: 1px solid var(--border); }

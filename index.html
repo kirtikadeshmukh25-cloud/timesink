@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TimeSink — Visual Time Audit</title>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/landing.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="brand">
+      <i data-lucide="clock"></i>
+      <span>TimeSink</span>
+    </a>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="app.html" class="btn primary">
+        Open Planner <i data-lucide="arrow-right"></i>
+      </a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <span class="hero-badge">
+      <i data-lucide="calendar"></i> Visual Day Planner
+    </span>
+    <h1>Where did your day <span class="accent">actually go?</span></h1>
+    <p class="hero-lead">
+      Drag and drop blocks on a 24-hour timeline. See instantly if your day is balanced or if you're overworked.
+    </p>
+    <div class="hero-actions">
+      <a href="app.html" class="btn primary large">
+        <i data-lucide="play"></i> Start Planning
+      </a>
+    </div>
+  </section>
+
+  <section class="section" id="features">
+    <h2 class="section-title">Stop guessing. Start seeing.</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon"><i data-lucide="move"></i></div>
+        <h3>Drag-to-Allocate</h3>
+        <p>Don't use tedious stopwatches. Just drag on the calendar to block out your time.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i data-lucide="pie-chart"></i></div>
+        <h3>Real-time Insights</h3>
+        <p>The app counts your hours in real-time and warns you if you haven't scheduled a break.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i data-lucide="save"></i></div>
+        <h3>Auto-Save</h3>
+        <p>Your schedule is saved automatically in your browser. No login required.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Built with simple HTML, CSS, and JS.</p>
+  </footer>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>
